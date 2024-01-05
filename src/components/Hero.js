@@ -7,12 +7,12 @@ const Hero = () => {
     const SOCIAL=[
         {
             id:1, 
-            link:"https://leetcode.com",
+            link:"https://leetcode.com/YasminBanu/",
             icon:<TbBrandLeetcode/>
         },
         {
             id:2,
-            link:"https://linkedin.com",
+            link:"https://www.linkedin.com/in/yasmin-banu/",
             icon:<FaLinkedin/>
         }
     ];

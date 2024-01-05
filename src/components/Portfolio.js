@@ -1,9 +1,9 @@
 import React from 'react'
 import Section from './common/Section'
 import {FaGithub} from "react-icons/fa"
-import p1 from "../Assets/p1.jpg"
-import p2 from "../Assets/p2.jpg"
-import p3 from "../Assets/p3.jpg"
+import food from "../Assets/food.png"
+import netflix from "../Assets/netflixgpt.png"
+import youtube from "../Assets/youtube.png"
 import p4 from "../Assets/p4.jpg"
 import p5 from "../Assets/p5.jpg"
 import p6 from "../Assets/p6.jpg"
@@ -13,21 +13,21 @@ const Portfolio = () => {
     const projects=[
         {
             id:1,
-            image:p1,
-            title:"Best App",
-            github:"https://github.com/nodejs/node",
+            image:food,
+            title:"Food Ordering App",
+            github:"https://github.com/DeveloperYasmin/Food-Ordering",
         },
         {
             id:2,
-            image:p2,
-            title:"Best App",
-            github:"https://google.com",
+            image:netflix,
+            title:"Netflix-GPT",
+            github:"https://github.com/DeveloperYasmin/Netflixproject",
         },
         {
             id:3,
-            image:p3,
-            title:"Age of Empires",
-            github:"https://github.com/nodejs/node",
+            image:youtube,
+            title:"Youtube-Clone",
+            github:"https://github.com/DeveloperYasmin/Youtube",
         },
         {
             id:4,
@@ -55,10 +55,10 @@ const Portfolio = () => {
    <div className='grid gap-8 lg:gap-14 lg:grid-cols-2'>
     {projects.map(({id,title,image,github})=>(
         <div key={id} className='max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden'>
-           <img src={image} alt={title} className='w-2/3'/>
-           <div className='w-1/3 flex flex-col items-center justify-evenly p-1'>
-            <h2>{title}</h2> 
-            <a href={github} className='text-2xl cursor-pointer duration-150 hover:scale-110' target="_blank" rel='noopener noreferrer' ><FaGithub/></a>
+           <img src={image} alt={title} className='w-96 h-72'/>
+           <div className='w-2/3 flex flex-col items-center justify-evenly p-1'>
+            <h2 className="text-xl">{title}</h2> 
+            <a href={github} className='text-5xl cursor-pointer duration-150 hover:scale-110' target="_blank" rel='noopener noreferrer' ><FaGithub/></a>
             </div>
             </div>
     ))}

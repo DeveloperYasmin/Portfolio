@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/contact";
 
 function App() {
   const [darkMode,setdarkMode]=useState(true)
@@ -14,6 +15,7 @@ function App() {
       <Hero/>
       <Services/>
       <Portfolio/>
+      <Contact/>
       </main>
     </div>
   );
