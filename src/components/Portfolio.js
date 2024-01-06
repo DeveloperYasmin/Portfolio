@@ -55,7 +55,7 @@ const Portfolio = () => {
    <div className='grid gap-8 lg:gap-14 lg:grid-cols-2'>
     {projects.map(({id,title,image,github})=>(
         <div key={id} className='max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden'>
-           <img src={image} alt={title} className='w-96 h-72'/>
+           <img src={image} alt={title} className='w-2/3 md:w-96 h-72'/>
            <div className='w-2/3 flex flex-col items-center justify-evenly p-1'>
             <h2 className="text-xl">{title}</h2> 
             <a href={github} className='text-5xl cursor-pointer duration-150 hover:scale-110' target="_blank" rel='noopener noreferrer' ><FaGithub/></a>
