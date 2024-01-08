@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.50d6582f.css",
+    "main.js": "/Portfolio/static/js/main.ed0f96fe.js",
+    "static/media/avatar.png": "/Portfolio/static/media/avatar.9f8cff0ba35529ea8f39.png",
+    "static/media/p4.jpg": "/Portfolio/static/media/p4.0459ebc2624f77cd9828.jpg",
+    "static/media/research.png": "/Portfolio/static/media/research.0de9e88980fa716ebe82.png",
+    "static/media/commerce.png": "/Portfolio/static/media/commerce.d61bd58915e980575c88.png",
+    "static/media/youtube.png": "/Portfolio/static/media/youtube.0cbcbe6f422554f2c1a3.png",
+    "static/media/netflixgpt.png": "/Portfolio/static/media/netflixgpt.6d77948fdc777a874b44.png",
+    "static/media/mobile.png": "/Portfolio/static/media/mobile.c666d7f1a111a1aa8be5.png",
+    "static/media/web.png": "/Portfolio/static/media/web.4c6d19981760584007b7.png",
+    "static/media/p5.jpg": "/Portfolio/static/media/p5.3c8a0cbfedee6e3026ba.jpg",
+    "static/media/food.png": "/Portfolio/static/media/food.1d686e4597aa612fb83d.png",
+    "static/media/p6.jpg": "/Portfolio/static/media/p6.9ef4e185238545d93776.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.50d6582f.css.map": "/Portfolio/static/css/main.50d6582f.css.map",
+    "main.ed0f96fe.js.map": "/Portfolio/static/js/main.ed0f96fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50d6582f.css",
+    "static/js/main.ed0f96fe.js"
+  ]
+}
