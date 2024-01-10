@@ -35,7 +35,7 @@ const Hero = () => {
         strings={[
             "I'm a Front-End Developer",
             "I'm a Web Developer",
-            "I'm an UI/UX designer",
+            "I'm a UI/UX designer",
             "I'm a Web Designer"
         ]}
         typeSpeed={110}
