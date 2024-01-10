@@ -21,7 +21,7 @@ const contact = () => {
         </p></div>
       <div className='flex items-center justify-evenly text-5xl'>
         {SOCIAL.map(({id,link,icon})=>(
-          <a className='duration-200 ease-in-out hover:text-rose-600' key={id} traget="_blank" rel="noopener noreferrer" href={link}>{icon}</a>
+          <a className='duration-300 ease-in-out hover:scale-110  hover:text-rose-600' key={id} traget="_blank" rel="noopener noreferrer" href={link}>{icon}</a>
         ))}
       </div>
       <div className='p-8 text-left w-full'>
