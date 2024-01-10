@@ -58,7 +58,6 @@ const Portfolio = () => {
             ghpage:"https://developeryasmin.github.com"
 
         }
-        
     ]
   return (
     <Section title="Portfolio 📝" subtitle="These are all the projects that I have worked on.Some of them I have worked before I gained some experience.So go gentle on them.">
