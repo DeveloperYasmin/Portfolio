@@ -51,7 +51,7 @@ const Hero = () => {
         </div>
        <div className=''>
         <img src={avatar} alt="avatar" className='w-60 object-cover object-top bg-gradient-to-b from-rose-600 rounded-xl h-60 md:w-72 md:h-72'/>
-        <a href="/yash-resume.pdf" download={true} className='flex items-center justify-center mt-10 bg-gradient-to-r from-rose-600 to-teal-500 text-white py-2 rounded-lg'> Resume</a>
+        <a href="https://developeryasmin.github.io/public/yash-resume.pdf" download={true} className='flex items-center justify-center mt-10 bg-gradient-to-r from-rose-600 to-teal-500 text-white py-2 rounded-lg'> Resume</a>
        </div>
          <div className='mt-10 down-arrow'>
             <FaArrowDown className='text-gray-400 text-2xl animate-bounce'/>
