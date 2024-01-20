@@ -4,9 +4,7 @@ import {FaGithub} from "react-icons/fa"
 import food from "../Assets/food.png"
 import netflix from "../Assets/netflixgpt.png"
 import youtube from "../Assets/youtube.png"
-import p4 from "../Assets/p4.jpg"
-import p5 from "../Assets/p5.jpg"
-import p6 from "../Assets/p6.jpg"
+import calci from "../Assets/calci.png"
 
 
 const Portfolio = () => {
@@ -36,29 +34,14 @@ const Portfolio = () => {
         },
         {
             id:4,
-            image:p4,
-            title:"Best App",
-            github:"https://github.com/nodejs/node",
-            ghpage:"https://developeryasmin.github.com"
+            image:calci,
+            title:"Advance Calculator",
+            github:"https://github.com/DeveloperYasmin/ReactJs-Calculator",
+            ghpage:"https://developeryasmin.github.io/ReactJs-Calculator/"
 
-        },
-        {
-            id:5,
-            image:p5,
-            title:"Best App",
-            github:"https://github.com/nodejs/node",
-            ghpage:"https://developeryasmin.github.com"
-
-        },
-        {
-            id:6,
-            image:p6,
-            title:"Best App",
-            github:"https://github.com/nodejs/node",
-            ghpage:"https://developeryasmin.github.com"
 
         }
-    ]
+           ]
   return (
     <Section title="Portfolio 📝" subtitle="These are all the projects that I have worked on.Some of them I have worked before I gained some experience.So go gentle on them.">
    
