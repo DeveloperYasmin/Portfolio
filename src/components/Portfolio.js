@@ -5,6 +5,8 @@ import food from "../Assets/food.png"
 import netflix from "../Assets/netflixgpt.png"
 import youtube from "../Assets/youtube.png"
 import calci from "../Assets/calci.png"
+import foodie from "../Assets/foodie.png"
+import posts from "../Assets/posts.png"
 
 
 const Portfolio = () => {
@@ -40,7 +42,28 @@ const Portfolio = () => {
             ghpage:"https://developeryasmin.github.io/ReactJs-Calculator/"
 
 
+        },
+        {
+            id:5,
+            image:posts,
+            title:"Yasmin Posts",
+            github:"https://github.com/DeveloperYasmin/yasmin-post",
+            ghpage:"https://yasmin-post.vercel.app/dashboard"
+
+
+        },
+        {
+            id:6,
+            image:foodie,
+            title:"Foodie",
+            github:"https://github.com/DeveloperYasmin/foodreceipe",
+            ghpage:"https://foodie-beta-eight.vercel.app/"
+            
+
+
         }
+
+
            ]
   return (
     <Section title="Portfolio 📝" subtitle="These are all the projects that I have worked on.Some of them I have worked before I gained some experience.So go gentle on them.">
