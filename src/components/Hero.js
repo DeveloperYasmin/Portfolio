@@ -33,9 +33,9 @@ const Hero = () => {
         <div className='py-3 text-3xl'>
      <Typed 
         strings={[
-            "I'm a Front-End Developer",
             "I'm a Web Developer",
-            "I'm a UI/UX designer",
+            "I'm a Front End Developer",
+            "I'm a Back End Developer",
             "I'm a Web Designer"
         ]}
         typeSpeed={110}
@@ -43,7 +43,7 @@ const Hero = () => {
         loop
      /></div>
         <p className='max-w-xl font-light text-gray-500'>Hello <span className='animate-pulse text-4xl'>👋🏻</span>,
-             welcome to my site.I am a freelance Front End Developer. I love to work on Web dev,Mobile dev and automation projects</p>
+             welcome to my site.I am a freelance Web Developer. I love to work on Web dev,Mobile dev and automation projects</p>
        <div className='flex justify-evenly py-8 lg:py-16 text-5xl w-full md:w-1/3'>
         {SOCIAL.map(({id,link,icon})=>(
             <a href={link} key={id} target='_blank' rel='noopener noreferrer' className=' cursor-pointer duration-300 ease-in-out hover:scale-110 hover:text-rose-600 '>{icon}</a>
