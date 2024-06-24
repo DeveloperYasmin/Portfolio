@@ -7,6 +7,9 @@ import youtube from "../Assets/youtube.png"
 import calci from "../Assets/calci.png"
 import foodie from "../Assets/foodie.png"
 import posts from "../Assets/posts.png"
+import habot from "../Assets/habot.png"
+import Resume from "../Assets/Resume.png"
+import SFAI from "../Assets/SFAI.png"
 
 
 const Portfolio = () => {
@@ -58,9 +61,28 @@ const Portfolio = () => {
             title:"Foodie",
             github:"https://github.com/DeveloperYasmin/foodreceipe",
             ghpage:"https://foodie-beta-eight.vercel.app/"
-            
+        }
 
-
+  {
+            id:7,
+            image:habot,
+            title:"Habot",
+            github:"https://github.com/DeveloperYasmin/habot",
+            ghpage:"https://developeryasmin.github.io/habot/"
+        }
+  {
+            id:8,
+            image:Resume,
+            title:"Resume",
+            github:"https://github.com/DeveloperYasmin/resume",
+            ghpage:"https://developeryasmin.github.io/resume/"
+        }
+  {
+            id:9,
+            image:SFAI,
+            title:"SFAI",
+            github:"https://github.com/DeveloperYasmin/SFAI",
+            ghpage:"https://developeryasmin.github.io/SFAI/"
         }
 
 
