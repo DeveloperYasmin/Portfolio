@@ -61,7 +61,7 @@ const Portfolio = () => {
             title:"Foodie",
             github:"https://github.com/DeveloperYasmin/foodreceipe",
             ghpage:"https://foodie-beta-eight.vercel.app/"
-        }
+        },
 
   {
             id:7,
@@ -69,14 +69,14 @@ const Portfolio = () => {
             title:"Habot",
             github:"https://github.com/DeveloperYasmin/habot",
             ghpage:"https://developeryasmin.github.io/habot/"
-        }
+        },
   {
             id:8,
             image:Resume,
             title:"Resume",
             github:"https://github.com/DeveloperYasmin/resume",
             ghpage:"https://developeryasmin.github.io/resume/"
-        }
+        },
   {
             id:9,
             image:SFAI,
